@@ -11,7 +11,7 @@ function AppRoutes() {
   const location = useLocation();
 
   // ❌ หน้าเหล่านี้ไม่ต้องมี Navbar
-  const hideNavbar = ["/login", "/register", "/intro"].includes(location.pathname);
+  const hideNavbar = ["/", "/register", "/intro"].includes(location.pathname);
 
   return (
     <>
