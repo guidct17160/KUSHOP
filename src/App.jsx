@@ -20,7 +20,7 @@ function AppRoutes() {
       {/* 🔥 สำคัญ: ทำให้ layoutId animate ข้ามหน้า */}
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/intro" element={<Intro />} />
           <Route path="/home" element={<Home />} />
