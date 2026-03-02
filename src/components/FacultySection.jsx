@@ -40,13 +40,13 @@ export default function FacultySection() {
                     <h2 className="text-3xl font-black text-gray-900 tracking-tight">FACULTY</h2>
                     <p className="text-sm text-gray-400 mt-1">Shirts for each faculty</p>
                 </div>
-                <div className="flex items-center gap-1 text-sm text-gray-500 cursor-pointer hover:text-gray-800 transition">
+                {/* <div className="flex items-center gap-1 text-sm text-gray-500 cursor-pointer hover:text-gray-800 transition">
                     <span>Sort by:</span>
                     <span className="font-semibold text-gray-800">Featured</span>
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
                         <path d="M2 4l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
-                </div>
+                </div> */}
             </motion.div>
 
             {/* Carousel */}
@@ -137,4 +137,5 @@ export default function FacultySection() {
             </div>
         </div>
     );
+
 }
